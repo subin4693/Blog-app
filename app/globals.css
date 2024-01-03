@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex_between {
+    @apply flex justify-between items-center;
+}
+
+.nav_item {
+    @apply hover:bg-green-100 px-2 py-1 rounded-sm text-sm;
+}
+
+.text_title {
+    @apply text-lg font-bold;
+}
